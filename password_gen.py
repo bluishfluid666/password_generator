@@ -43,6 +43,8 @@ while True:
   print("--------Your password: "+ result+"--------")
   pyperclip.copy(result)
   print('Your password is ready to be pasted. Thank you for using our service.')
+  print('If you want to view your password after the program terminates, on a Windoes machine, press Ctrl+V to access your clipboard'+
+        ', on a MacOS one....you....my broke ass doesn\'t even know what a Mac is.' 
   cont = input('Continue using? (y/n) ')
   if cont != 'y':
     break
